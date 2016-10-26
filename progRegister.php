@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative Video Competition</title>
+    <title>Programming Contest</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
 </head>
 
-<body id="home" class="vidRegistration">
+<body id="home" class="progRegistration">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -54,10 +54,10 @@
                         <a href="#home"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#vidRegister">Registration</a>
+                        <a href="#progRegister">Registration</a>
                     </li>
 					<li class="page-scroll">
-                        <a href="#vidParticipant">Participants</a>
+                        <a href="#progParticipant">Participants</a>
                     </li>
                 </ul>
             </div>
@@ -71,9 +71,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-				<img class="img-responsive" src="img/videoProfile.png" alt="">
+				<img class="img-responsive" src="img/progProfile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Creative Video Competition</span>
+                        <span class="name">Programming Contest</span>
                         <hr class="star-light">
                         <span class="skills">Please register below</span>
                     </div>
@@ -83,11 +83,11 @@
     </header>
 
     <!-- Contact Section -->
-    <section id="vidRegister">
+    <section id="progRegister">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Creative Video Registration</h2>
+                    <h2>Programming Contest Registration</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -101,70 +101,70 @@
 						<div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Team Name</label>
-                                <input type="text" class="form-control" placeholder="Team Name" id="vidTeamName" required data-validation-required-message="Please enter your Team Name.">
+                                <input type="text" class="form-control" placeholder="Team Name" id="progTeamName" required data-validation-required-message="Please enter your Team Name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
 						<div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>First Participant FullName</label>
-                                <input type="text" class="form-control" placeholder="First Participant FullName" id="vidFirst" required data-validation-required-message="Please enter First Participant FullName.">
+                                <input type="text" class="form-control" placeholder="First Participant FullName" id="progFirst" required data-validation-required-message="Please enter First Participant FullName.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>First Participant I/C Number</label>
-                                <input type="number" class="form-control" placeholder="First Participant I/C Number (example :900102136569)" id="vidFirstIC" required data-validation-required-message="Please enter your First Participant I/C Number.">
+                                <input type="number" class="form-control" placeholder="First Participant I/C Number (example :900102136569)" id="progFirstIC" required data-validation-required-message="Please enter your First Participant I/C Number.">
                                 <p class="help-block text-danger"></p>
                             </div>
 						</div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>First Participant Contact Number</label>
-                                <input type="text" class="form-control" placeholder="First Participant Contact Number (example : 0194562332)" id="vidFirstNum" required data-validation-required-message="Please enter your First Participant Contact Number.">
+                                <input type="text" class="form-control" placeholder="First Participant Contact Number (example : 0194562332)" id="progFirstNum" required data-validation-required-message="Please enter your First Participant Contact Number.">
                                 <p class="help-block text-danger"></p>
                             </div>
 						</div>
 						<div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Second Participant FullName</label>
-                                <input type="text" class="form-control" placeholder="Second Participant FullName" id="vidSecond" required data-validation-required-message="Please enter your Second Participant FullName.">
+                                <input type="text" class="form-control" placeholder="Second Participant FullName" id="progSecond" required data-validation-required-message="Please enter your Second Participant FullName.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Second Participant I/C Number</label>
-                                <input type="number" class="form-control" placeholder="Second Participant I/C Number (example :900102136569)" id="vidSecondIC" required data-validation-required-message="Please enter your Second Participant I/C Number.">
+                                <input type="number" class="form-control" placeholder="Second Participant I/C Number (example :900102136569)" id="progSecondIC" required data-validation-required-message="Please enter your Second Participant I/C Number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Second Participant Contact Number</label>
-                                <input type="text" class="form-control" placeholder="Second Participant Contact Number (example : 0194562332)" id="vidSecondNum" required data-validation-required-message="Please enter your Second Participant Contact Number.">
+                                <input type="text" class="form-control" placeholder="Second Participant Contact Number (example : 0194562332)" id="progSecondNum" required data-validation-required-message="Please enter your Second Participant Contact Number.">
                                 <p class="help-block text-danger"></p>
                             </div>
 						</div>
 						<div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Third Participant FullName</label>
-                                <input type="text" class="form-control" placeholder="Third Participant FullName" id="vidThird" required data-validation-required-message="Please enter your Third Participant FullName.">
+                                <input type="text" class="form-control" placeholder="Third Participant FullName" id="progThird" required data-validation-required-message="Please enter your Third Participant FullName.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Third Participant I/C Number</label>
-                                <input type="number" class="form-control" placeholder="Third Participant I/C Number (example :900102136569)" id="vidThirdIC" required data-validation-required-message="Please enter your Third Participant I/C Number.">
+                                <input type="number" class="form-control" placeholder="Third Participant I/C Number (example :900102136569)" id="progThirdIC" required data-validation-required-message="Please enter your Third Participant I/C Number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Third Participant Contact Number</label>
-                                <input type="text" class="form-control" placeholder="Third Participant Contact Number (example : 0194562332)" id="vidThirdNum" required data-validation-required-message="Please enter your Third Participant Contact Number.">
+                                <input type="text" class="form-control" placeholder="Third Participant Contact Number (example : 0194562332)" id="progThirdNum" required data-validation-required-message="Please enter your Third Participant Contact Number.">
                                 <p class="help-block text-danger"></p>
                             </div>
 						</div>
@@ -185,11 +185,11 @@
     </section>
 
     <!-- About Section -->
-    <section class="success" id="vidParticipant">
+    <section class="success" id="progParticipant">
         <div class="success">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Creative Video</h2>
+                    <h2>Programming Contest Participants</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -214,7 +214,7 @@
 	require_once 'register/header.php';
 	
 	$start = 0; // Variables for the first page hit
-				$query = queryMysql("SELECT video_id,vidTeamName,vidFirst,vidFirstIC,vidFirstNum,vidSecond,vidSecondIC,vidSecondNum,vidThird,vidThirdIC,vidThirdNum FROM video ORDER BY video_id"); // query to get messages from messages table
+				$query = queryMysql("SELECT programming_id,progTeamName,progFirst,progFirstIC,progFirstNum,progSecond,progSecondIC,progSecondNum,progThird,progThirdIC,progThirdNum FROM programming ORDER BY programming_id"); // query to get messages from messages table
 			
 				$i = 0;
 				while($row = $query -> fetch_array()) 
@@ -222,16 +222,16 @@
 					$i++;
 					echo "<tr><h3>
 						<td>"; echo $i+$start; echo"</td>
-						<td>"; echo $row['vidTeamName']; echo "</td>
-						<td>"; echo $row['vidFirst']; echo "</td>
-						<td>"; echo $row['vidFirstIC']; echo "</td>
-						<td>"; echo $row['vidFirstNum']; echo "</td>
-						<td>"; echo $row['vidSecond']; echo "</td>
-						<td>"; echo $row['vidSecondIC']; echo "</td>
-						<td>"; echo $row['vidSecondNum']; echo "</td>
-						<td>"; echo $row['vidThird']; echo "</td>
-						<td>"; echo $row['vidThirdIC']; echo "</td>
-						<td>"; echo $row['vidThirdNum']; echo "</td>
+						<td>"; echo $row['progTeamName']; echo "</td>
+						<td>"; echo $row['progFirst']; echo "</td>
+						<td>"; echo $row['progFirstIC']; echo "</td>
+						<td>"; echo $row['progFirstNum']; echo "</td>
+						<td>"; echo $row['progSecond']; echo "</td>
+						<td>"; echo $row['progSecondIC']; echo "</td>
+						<td>"; echo $row['progSecondNum']; echo "</td>
+						<td>"; echo $row['progThird']; echo "</td>
+						<td>"; echo $row['progThirdIC']; echo "</td>
+						<td>"; echo $row['progThirdNum']; echo "</td>
 					</h3></tr>";
 				}
 ?>
@@ -505,7 +505,7 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/video.js"></script>
+    <script src="js/programming.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>

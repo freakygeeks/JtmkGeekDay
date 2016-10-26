@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 08, 2016 at 03:38 PM
+-- Generation Time: Sep 26, 2016 at 04:11 PM
 -- Server version: 5.5.39
 -- PHP Version: 5.4.31
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `netrider` (
   `netSecondIC` bigint(12) NOT NULL,
   `netFirstNum` varchar(15) NOT NULL,
   `netSecondNum` varchar(15) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `netrider`
@@ -47,28 +47,28 @@ INSERT INTO `netrider` (`netrider_id`, `netTeamName`, `netFirst`, `netSecond`, `
 -- --------------------------------------------------------
 
 --
--- Table structure for table `video`
+-- Table structure for table `programming`
 --
 
-CREATE TABLE IF NOT EXISTS `video` (
-`video_id` int(11) NOT NULL,
-  `vidTeamName` varchar(50) DEFAULT NULL,
-  `vidFirst` varchar(50) DEFAULT NULL,
-  `vidSecond` varchar(50) DEFAULT NULL,
-  `vidThird` varchar(50) DEFAULT NULL,
-  `vidFirstIC` bigint(12) NOT NULL,
-  `vidSecondIC` bigint(12) NOT NULL,
-  `vidThirdIC` bigint(12) NOT NULL,
-  `vidFirstNum` varchar(15) NOT NULL,
-  `vidSecondNum` varchar(15) NOT NULL,
-  `vidThirdNum` varchar(15) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+CREATE TABLE IF NOT EXISTS `programming` (
+`programming_id` int(11) NOT NULL,
+  `progTeamName` varchar(50) DEFAULT NULL,
+  `progFirst` varchar(50) DEFAULT NULL,
+  `progSecond` varchar(50) DEFAULT NULL,
+  `progThird` varchar(50) DEFAULT NULL,
+  `progFirstIC` bigint(12) NOT NULL,
+  `progSecondIC` bigint(12) NOT NULL,
+  `progThirdIC` bigint(12) NOT NULL,
+  `progFirstNum` varchar(15) NOT NULL,
+  `progSecondNum` varchar(15) NOT NULL,
+  `progThirdNum` varchar(15) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
--- Dumping data for table `video`
+-- Dumping data for table `programming`
 --
 
-INSERT INTO `video` (`video_id`, `vidTeamName`, `vidFirst`, `vidSecond`, `vidThird`, `vidFirstIC`, `vidSecondIC`, `vidThirdIC`, `vidFirstNum`, `vidSecondNum`, `vidThirdNum`) VALUES
+INSERT INTO `programming` (`programming_id`, `progTeamName`, `progFirst`, `progSecond`, `progThird`, `progFirstIC`, `progSecondIC`, `progThirdIC`, `progFirstNum`, `progSecondNum`, `progThirdNum`) VALUES
 (1, 'Sample Team', 'Ali', 'Abu', 'Kassim', 900101130909, 900101130907, 900101130905, '0196655444', '0196655442', '0196655441');
 
 --
@@ -82,10 +82,10 @@ ALTER TABLE `netrider`
  ADD PRIMARY KEY (`netrider_id`), ADD KEY `netFirstIC_index` (`netFirstIC`), ADD KEY `netSecondIC_index` (`netSecondIC`), ADD KEY `netFirstNum_index` (`netFirstNum`);
 
 --
--- Indexes for table `video`
+-- Indexes for table `programming`
 --
-ALTER TABLE `video`
- ADD PRIMARY KEY (`video_id`), ADD KEY `vidFirstIC_index` (`vidFirstIC`), ADD KEY `vidtSecondIC_index` (`vidSecondIC`), ADD KEY `vidThirdIC_index` (`vidThirdIC`), ADD KEY `vidFirstNum_index` (`vidFirstNum`);
+ALTER TABLE `programming`
+ ADD PRIMARY KEY (`programming_id`), ADD KEY `progFirstIC_index` (`progFirstIC`), ADD KEY `progSecondIC_index` (`progSecondIC`), ADD KEY `progThirdIC_index` (`progThirdIC`), ADD KEY `progFirstNum_index` (`progFirstNum`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -95,12 +95,12 @@ ALTER TABLE `video`
 -- AUTO_INCREMENT for table `netrider`
 --
 ALTER TABLE `netrider`
-MODIFY `netrider_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+MODIFY `netrider_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT for table `video`
+-- AUTO_INCREMENT for table `programming`
 --
-ALTER TABLE `video`
-MODIFY `video_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+ALTER TABLE `programming`
+MODIFY `programming_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
