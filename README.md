@@ -1,6 +1,6 @@
-This is my JTMK Geek Day created to give students an opportunity to register for competition available of that event developed using PHP language, Javascript and MySQL database.
+This is my JTMK Geek Day Competition Registration System created to give students an opportunity to register for competition available on that particular event developed using PHP language, Javascript and MySQL database.
 
-To compile and use this sytem. Please follow steps as below:
+To compile and use this system. Please follow steps as below:
 1. Install xampp in your Window or Linux
 2. Please change the code in register/function.php as per your mysql username and mysql password.
 	$dbhost = 'localhost';

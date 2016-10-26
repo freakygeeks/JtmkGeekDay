@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Lite Netrider (KOTH) Competition</title>
+    <title>Lite Netrider Challenge</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -73,7 +73,7 @@
                 <div class="col-lg-12">
 				<img class="img-responsive" src="img/netriderProfile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Lite Netrider (KOTH) Competition</span>
+                        <span class="name">Lite Netrider Challenge</span>
                         <hr class="star-light">
                         <span class="skills">Please register below</span>
                     </div>
@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Lite Netrider (KOTH) Registration</h2>
+                    <h2>Lite Netrider Challenge Registration</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -168,7 +168,7 @@
         <div class="success">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Lite Netrider (KOTH) Participants</h2>
+                    <h2>Lite Netrider Challenge Participants</h2>
                     <hr class="star-light">
                 </div>
             </div>

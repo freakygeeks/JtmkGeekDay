@@ -8,37 +8,37 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
 			// get values from geekday form
-            var vidTeamName = $("input#vidTeamName").val();
-            var vidFirst = $("input#vidFirst").val();
-            var vidSecond = $("input#vidSecond").val();
-			var vidThird = $("input#vidThird").val();
-            var vidFirstIC = $("input#vidFirstIC").val();
-            var vidSecondIC = $("input#vidSecondIC").val();
-            var vidThirdIC = $("input#vidThirdIC").val();
-            var vidFirstNum = $("input#vidFirstNum").val();
-            var vidSecondNum = $("input#vidSecondNum").val();
-            var vidThirdNum = $("input#vidThirdNum").val();
+            var progTeamName = $("input#progTeamName").val();
+            var progFirst = $("input#progFirst").val();
+            var progSecond = $("input#progSecond").val();
+			var progThird = $("input#progThird").val();
+            var progFirstIC = $("input#progFirstIC").val();
+            var progSecondIC = $("input#progSecondIC").val();
+            var progThirdIC = $("input#progThirdIC").val();
+            var progFirstNum = $("input#progFirstNum").val();
+            var progSecondNum = $("input#progSecondNum").val();
+            var progThirdNum = $("input#progThirdNum").val();
 			
-            var firstName = vidTeamName; // For Success/Failure Message
+            var firstName = progTeamName; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
-                firstName = vidTeamName.split(' ').slice(0, -1).join(' ');
+                firstName = progTeamName.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././register/video.php",
+                url: "././register/programming.php",
                 type: "POST",
                 data: {					
 					//geekday form
-					vidTeamName: vidTeamName,
-                    vidFirst: vidFirst,
-					vidSecond: vidSecond,
-					vidThird: vidThird,
-                    vidFirstIC: vidFirstIC,
-					vidSecondIC: vidSecondIC,
-					vidThirdIC: vidThirdIC,
-                    vidFirstNum: vidFirstNum,
-					vidSecondNum: vidSecondNum,
-					vidThirdNum: vidThirdNum,
+					progTeamName: progTeamName,
+                    progFirst: progFirst,
+					progSecond: progSecond,
+					progThird: progThird,
+                    progFirstIC: progFirstIC,
+					progSecondIC: progSecondIC,
+					progThirdIC: progThirdIC,
+                    progFirstNum: progFirstNum,
+					progSecondNum: progSecondNum,
+					progThirdNum: progThirdNum,
                 },
                 cache: false,
                 success: function() {

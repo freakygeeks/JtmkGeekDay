@@ -1,8 +1,8 @@
 <?php
 	$dbhost = 'localhost';
 	$dbname = 'geekday';
-	$dbuser = 'dbusername';
-	$dbpass = 'dbpassword';
+	$dbuser = 'root';
+	$dbpass = 'toor123456';
 	$appname = "Geek Day Competition";
 	
 	$connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
